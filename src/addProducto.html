@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+    <nav>
+        <!-- navbar content here  -->
+    </nav> -->
+
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img
+                        src="https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-pink-purple-gradient-ink-watercolor-background-pinkpink-purplewatercolorsplashing-inkwatercolor-image_84144.jpg">
+                </div>
+                <a href="#user"><img class="circle"
+                        src="https://scontent.fscl12-1.fna.fbcdn.net/v/t1.6435-9/105705843_597352447645749_2936947452374725617_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=174925&_nc_ohc=BR8Njyv5L60AX_ucKAl&_nc_ht=scontent.fscl12-1.fna&oh=805d4ed2f65324d9487d8c41ef807b2c&oe=61253F77"></a>
+                <a href="#name"><span class="white-text name">Carolina Vejar</span></a>
+                <a href="#email"><span class="white-text email">vejarcarolina.95@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a class="subheader">Menú 1</a></li>
+        <li><a class="waves-effect" href="#!">Menú 2</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <div class="container">
+        <div class="col s12 m7">
+            <h4 class="header">Agregar producto</h4>
+            <div class="card horizontal">
+               
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="txtNombre" type="text" class="validate">
+                                <label for="txtNombre">Nombre</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="txtTipo" type="text" class="validate">
+                                <label for="txtTipo">Tipo</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="txtPrecio" type="text" class="validate">
+                                <label for="txtPrecio">Precio</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="txtStock" type="text" class="validate">
+                                <label for="txtStock">Stock</label>
+                            </div>
+                            <div>
+                                <div class="input-field col s6">
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" class="filled-in" checked="checked" id="chkDscto" />
+                                            <span>Descuento</span>
+                                        </label>
+                                    </p>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="txtCantDscto" type="text" class="validate">
+                                    <label for="txtCantDscto">Cantidad descuento</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-action">
+                            <a class="waves-effect waves-light btn-large" onclick="clickAgregarProducto()">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./js/init.js"></script>
+        <script src="../build/main.js"></script>
+</body>
+
+</html>

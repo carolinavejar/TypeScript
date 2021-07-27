@@ -1,0 +1,30 @@
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+
+}
+
+@media only screen and (min-width : 992px) {
+    .container {
+        margin-left: 320px;
+    }
+
+}
+
+nav {
+    background-color: #E891D2;
+}
+
+.card-action {
+    float: right;
+}
